@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Tony Mu"
+---
+<div class="introduction">
+  <h1>hi.</h1>
+
+<p>
+  I develop catalog management services at <a href="https://tech.wayfair.com/" target="_blank">Wayfair</a>. I am also pursuing a computer science master's degree from <a href="https://cs.illinois.edu/academics/graduate/professional-mcs/online-master-computer-science" target="_blank">UIUC</a>. Previously, I worked at an equity management startup <a href="https://blog.shoobx.com/" target="_blank">Shoobx</a>. Before that, I authored a video collaboration app <a href="https://apps.apple.com/us/app/koalie/id1479634971" target="_blank">Koalie</a>. I also spent three memorable months at Amazon working on a dataset preview tool. My <a href="https://www.linkedin.com/in/tonymu/" target="_blank">Linkedin</a> has more projects I worked on.
+</p>
+<p>
+  In my spare time, I love to read scifi, solve puzzles, and drink tea.
+</p>
+</div>
+
+<hr>
+
+<div class="toc">
+  <h2>recent posts</h2>
+  <ul class="texts">
+  {% for item in site.texts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
