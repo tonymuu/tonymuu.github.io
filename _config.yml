@@ -24,7 +24,9 @@ encoding: utf-8
 
 # Collections for texts
 collections:
-  texts:
+  tech:
+    output: true
+  life:
     output: true
 
 # Markdown specs

@@ -16,9 +16,21 @@ title: "Tony Mu"
 <hr>
 
 <div class="toc">
-  <h2>recent posts</h2>
+  <h2>technology</h2>
   <ul class="texts">
-  {% for item in site.texts %}
+  {% for item in site.tech %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+
+  <h2>living</h2>
+  <ul class="texts">
+  {% for item in site.life %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
