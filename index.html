@@ -6,7 +6,7 @@ title: "Tony Mu"
   <h1>hi.</h1>
 
 <p>
-  I work on recommendation services that productionalize machine learning models to all <a href="https://www.xbox.com/en-US/">Xbox</a> users. I am also pursuing a master's degree from <a href="https://cs.illinois.edu/academics/graduate/professional-mcs/online-master-computer-science" target="_blank">UIUC</a>. Before that, I developed services to provide shopping content to millions of Windows and Edge users at <a href="https://www.microsoft.com/en-us/about/" target="_blank">Microsoft</a>. Previously, I worked on catalog management services at <a href="https://www.aboutwayfair.com/" target="_blank">Wayfair</a>. Before that, I worked on cloud equity management software at <a href="https://www.shoobx.com/about/our-company/" target="_blank">Shoobx</a>. During college, I studied Mathematics and CS, authored a video collaboration app <a href="https://apps.apple.com/us/app/koalie/id1479634971" target="_blank">Koalie</a>, and interned with <a href="https://www.aboutamazon.com/" target="_blank">Amazon</a> and <a href="https://www.carfax.com/company/about" target="_blank">Carfax</a>. Check out my profile on <a href="https://www.linkedin.com/in/tonymu/" target="_blank">Linkedin</a>!
+  I work on services that recommend games and friends to all <a href="https://www.xbox.com/en-US/">Xbox</a> users. I am also pursuing a master's degree from <a href="https://cs.illinois.edu/academics/graduate/professional-mcs/online-master-computer-science" target="_blank">UIUC</a>. Before that, I developed services to provide shopping content to millions of Windows and Edge users at <a href="https://www.microsoft.com/en-us/about/" target="_blank">Microsoft</a>. Previously, I worked on catalog management services at <a href="https://www.aboutwayfair.com/" target="_blank">Wayfair</a>. Before that, I worked on cloud equity management software at <a href="https://www.shoobx.com/about/our-company/" target="_blank">Shoobx</a>. During college, I studied Mathematics and CS, authored a video collaboration app <a href="https://apps.apple.com/us/app/koalie/id1479634971" target="_blank">Koalie</a>, and interned with <a href="https://www.aboutamazon.com/" target="_blank">Amazon</a> and <a href="https://www.carfax.com/company/about" target="_blank">Carfax</a>. Check out my profile on <a href="https://www.linkedin.com/in/tonymu/" target="_blank">Linkedin</a>!
 </p>
 <p>
   In my spare time, I love reading scifi, solving puzzles, and drinking tea.
@@ -16,21 +16,33 @@ title: "Tony Mu"
 <hr>
 
 <div class="toc">
-  <h2>technology</h2>
+  <h2>Projects</h2>
   <ul class="texts">
-  {% for item in site.tech %}
-
     <li class="text-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
+      <a href="https://github.com/tonymuu/TJSE">
+        FAANG Job Search Engine
       </a>
     </li>
-  {% endfor %}
-  </ul>
+    <li class="text-title">
+      <a href="https://github.com/tonymuu/MovieRecommender">
+        Movie Recommender based on Collaborative Filtering and Content-based Filtering
+      </a>
+    </li>
+    <li class="text-title">
+      <a href="https://github.com/tonymuu/distributed-kv-store">
+        A Cassandra-like Distributed Key-value Store
+      </a>
+    </li>
+    <li class="text-title">
+      <a href="https://github.com/tonymuu/gossip-style-failure-detector">
+        A Gossip-style Failure Detector
+      </a>
+    </li>
+  </ul> 
 
-  <h2>living</h2>
+  <h2>Blog</h2>
   <ul class="texts">
-  {% for item in site.life %}
+  {% for item in site.tech %}
 
     <li class="text-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
